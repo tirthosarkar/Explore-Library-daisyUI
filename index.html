@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
     <title>Explore Library DaisyUI</title>
     <style type="text/tailwindcss">
         @theme {
@@ -16,6 +16,74 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                           <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">Tirtho</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-success">Button</a>
+            </div>
+        </div>
+    </header>
+
+<section>
+    <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content text-center">
+    <div class="max-w-2xl">
+      <h1 class="text-5xl font-bold">Hello there</h1>
+      <p class="py-6">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn btn-success">Get Started</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+    <div
+  class="hero min-h-screen"
+  style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);"
+>
+  <div class="hero-overlay"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <p class="mb-5">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+</section>
+
     <h1 class="text-3xl text-center py-10 font-bold underline text-clifford">
         Hello world!
     </h1>
@@ -24,27 +92,27 @@
             class="px-8 py-3 bg-orange-400 cursor-pointer hover:bg-orange-600 active:scale-95 transition-all duration-200">Click
             Me</button>
 
-            <!-- daisyUI Button -->
-            <button class="btn btn-primary w-80 rounded-full">Click Me</button>
-            <button class="btn btn-error">Click Me</button>
-            <button class="btn btn-secondary">Click Me</button>
-            <button class="btn btn-success btn-xl">Click Me</button>
-            <button class="btn btn-warning btn-soft">Click Me</button>
-            <button class="btn btn-info btn-xl btn-outline">Click Me</button>
+        <!-- daisyUI Button -->
+        <button class="btn btn-primary w-80 rounded-full">Click Me</button>
+        <button class="btn btn-error">Click Me</button>
+        <button class="btn btn-secondary">Click Me</button>
+        <button class="btn btn-success btn-xl">Click Me</button>
+        <button class="btn btn-warning btn-soft">Click Me</button>
+        <button class="btn btn-info btn-xl btn-outline">Click Me</button>
     </div>
 
     <!-- dropdown  -->
 
-<div class="dropdown">
-  <div tabindex="0" role="button" class="btn m-1">Click</div>
-  <ul tabindex="-1" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-  </ul>
-</div>
+    <div class="dropdown">
+        <div tabindex="0" role="button" class="btn m-1">Click</div>
+        <ul tabindex="-1" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+        </ul>
+    </div>
 
     <section>
-        
+
     </section>
 
 </body>
