@@ -1,11 +1,12 @@
 <!doctype html>
-<html>
+<html data-theme="retro">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
     <title>Explore Library DaisyUI</title>
     <style type="text/tailwindcss">
         @theme {
@@ -18,14 +19,18 @@
     <h1 class="text-3xl text-center py-10 font-bold underline text-clifford">
         Hello world!
     </h1>
-    <div class="text-center">
+    <div class="text-center bg-neutral-500/10">
         <button
             class="px-8 py-3 bg-orange-400 cursor-pointer hover:bg-orange-600 active:scale-95 transition-all duration-200">Click
             Me</button>
 
             <!-- daisyUI Button -->
-            <button class="btn">Click
-            Me</button>
+            <button class="btn btn-primary w-80 rounded-full">Click Me</button>
+            <button class="btn btn-error">Click Me</button>
+            <button class="btn btn-secondary">Click Me</button>
+            <button class="btn btn-success btn-xl">Click Me</button>
+            <button class="btn btn-warning btn-soft">Click Me</button>
+            <button class="btn btn-info btn-xl btn-outline">Click Me</button>
     </div>
 
     <section>
